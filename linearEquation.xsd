@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:complexType name="linearEquation">
+        <xs:sequence maxOccurs="1" minOccurs="1">
+            <xs:element name="LHS" type="matrix"> </xs:element>
+            <xs:element name="RHS" type="vector"> </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+   <xs:complexType name="matrix">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="row" type="vector"> </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="vector">
+        <xs:sequence minOccurs="1" maxOccurs="unbounded">
+            <xs:element name="entry" type="number"> </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="number">
+        <xs:attribute name="value" type="xs:double"> </xs:attribute>
+    </xs:complexType>
+    <xs:element name="linearEquation" type="linearEquation">
+        
+    </xs:element>
+</xs:schema>

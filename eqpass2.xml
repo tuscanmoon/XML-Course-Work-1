@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Student ID: 089583717 -->
+<linearEquation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="linearEquation.xsd">
+    <LHS>
+        <row>
+            <entry value="0.0"/>
+            <entry value="1.0"/>
+        </row>
+        <row>
+            <entry value="1.0"/>
+            <entry value="2.0"/>
+        </row>
+   </LHS>
+    <RHS>
+        <entry value="5.3"/>
+        <entry value="2.8"/>
+    </RHS>
+</linearEquation>

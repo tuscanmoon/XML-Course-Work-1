@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Student ID: 089583717 -->
+<linearEquation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="linearEquation.xsd">
+    <LHS>
+        <row>
+            <entry value="1"/>
+            <entry value="2"/>
+            <entry value="0"/>
+        </row>
+        <row>
+            <entry value="3"/>
+            <entry value="4"/>
+            <entry value="4"/>
+        </row>
+        <row>
+            <entry value="5"/>
+            <entry value="6"/>
+            <entry value="3"/>
+        </row>        
+    </LHS>
+    <RHS>
+        <entry value="3"/>
+        <entry value="7"/>
+        <entry value="8"/>
+    </RHS>
+</linearEquation>
+<linearEquation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="linearEquation.xsd">
+    <LHS>
+        <row>
+            <entry value="1"/>
+            <entry value="2"/>
+            <entry value="0"/>
+        </row>
+        <row>
+            <entry value="3"/>
+            <entry value="4"/>
+            <entry value="4"/>
+        </row>
+        <row>
+            <entry value="5"/>
+            <entry value="6"/>
+            <entry value="3"/>
+        </row>        
+    </LHS>
+    <RHS>
+        <entry value="3"/>
+        <entry value="7"/>
+        <entry value="8"/>
+    </RHS>
+</linearEquation>
+
